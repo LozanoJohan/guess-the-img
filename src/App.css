@@ -1,21 +1,43 @@
-.App {
-  text-align: center;
-  
-}
-
 .row {
   display: flex;
   justify-content: center; /* Only horizontal centering */
 }
 
 .grid {
-  padding-top: 20px;
+  display: inline-block; /* Display as inline block */
+  margin: 20px auto; /* Auto horizontal margin for centering */
+  border: 20px solid white;
+  background: radial-gradient(#000000, #1b1b1b);
 }
 
 .text-box {
-  background-color: rgb(64, 65, 65);
+  background-color: #222;
+  border: none;
   height: 30px;
-  margin: 10px;
+  margin: 5px;
+  width: 20%;
+  color: white;
 }
 
+.submit-button {
+  visibility: hidden;
+}
 
+.alert {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  background-color: #111;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 400px;
+  margin: 10px;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+
+}
+
+.alert button {
+  width: 60px;
+}
