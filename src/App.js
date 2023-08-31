@@ -34,6 +34,9 @@ export default function App() {
     setIsClicked(false);
     setAlertVisible(false);
     setMessage('');
+
+    const textElement = document.getElementById("myInput");
+    textElement.value = '';
   }
 
   function handleSubmit(event) {
@@ -45,7 +48,6 @@ export default function App() {
     setAlertVisible(true);
     guess.toLowerCase() === image.name ? setMessage(WON_MESSAGE) : setMessage(LOST_MESSAGE);
   }
-  console.log(isAlertVisible);
 
   return (
     <>

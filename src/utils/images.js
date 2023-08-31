@@ -1,5 +1,5 @@
 export const fetchImages = async () => { 
-  const response = await fetch('http://localhost:8000/images/');
+  const response = await fetch('https://color-extractor-api-jr6v-dev.fl0.io/images/');
 
   if (!response.ok) {
     throw new Error(`Failed to fetch images :( | ${response.status}`);
