@@ -6,6 +6,7 @@ import { Form } from './components/Form';
 import { getNewImage } from './utils/images';
 import { useImage } from './hooks/images';
 import { Alert } from './components/Alert';
+import { LOST_MESSAGE, WON_MESSAGE } from './constants.js/messages';
 
 
 export default function App() {
@@ -31,6 +32,8 @@ export default function App() {
     setViewablePixels(0);
 
     setIsClicked(false);
+    setAlertVisible(false);
+    setMessage('');
   }
 
   function handleSubmit(event) {
@@ -40,7 +43,7 @@ export default function App() {
 
     setIsClicked(false);
     setAlertVisible(true);
-    guess.toLowerCase() === image.name ? setMessage('Ganaste 🥳') : setMessage('Intenta de nuevo 😢');
+    guess.toLowerCase() === image.name ? setMessage(WON_MESSAGE) : setMessage(LOST_MESSAGE);
   }
   console.log(isAlertVisible);
 
