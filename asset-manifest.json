@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/guess-the-img/static/css/main.c40e1feb.css",
+    "main.js": "/guess-the-img/static/js/main.84650ba1.js",
+    "static/js/787.8eaa72b4.chunk.js": "/guess-the-img/static/js/787.8eaa72b4.chunk.js",
+    "index.html": "/guess-the-img/index.html",
+    "main.c40e1feb.css.map": "/guess-the-img/static/css/main.c40e1feb.css.map",
+    "main.84650ba1.js.map": "/guess-the-img/static/js/main.84650ba1.js.map",
+    "787.8eaa72b4.chunk.js.map": "/guess-the-img/static/js/787.8eaa72b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c40e1feb.css",
+    "static/js/main.84650ba1.js"
+  ]
+}
